@@ -22,6 +22,7 @@ struct TextFieldAlert<Presenting>: View where Presenting: View {
                 VStack {
                     Text(self.title)
                     TextField(self.title, value: self.$outputNumber, formatter: NumberFormatter())
+                        .keyboardType(.decimalPad)
                     Divider()
                     HStack {
                         Button(action: {

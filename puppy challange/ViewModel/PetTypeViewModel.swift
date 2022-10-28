@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-
+import Combine
 protocol CalculateRwaModelDelegate: AnyObject {
     func update(isEmpty: Bool)
 }
@@ -17,6 +17,9 @@ extension PetTypeView {
         @Published var waitingForResponseFromEndpoint: Bool
         @Published var rawModel: CalculateRawModel
         @Published var rawModelIsEmpty: Bool
+        @Published var responseMessageBody: String
+        @Published var showAlert: Bool = false
+        private var cancellable: AnyCancellable?
         
         var calculateTitleString: String {
             if waitingForResponseFromEndpoint {
@@ -29,12 +32,16 @@ extension PetTypeView {
             rawModel = CalculateRawModel()
             waitingForResponseFromEndpoint = false
             rawModelIsEmpty = true
+            responseMessageBody = ""
             rawModel.delegate = self
            
         }
         
         func calculate() {
             print(">>>Calculate")
+            if waitingForResponseFromEndpoint {
+                return
+            }
             waitingForResponseFromEndpoint = true
             
             let requestBodyModel = PuppyRequestBody(dog:
@@ -44,10 +51,24 @@ extension PetTypeView {
                                                     PetService(grooming: rawModel.groomyCat, hotel: Hotel(nights: rawModel.numberOfNightsHotelForCat))))
             do {
                 let jsonData = try JSONEncoder().encode(requestBodyModel)
-                let jsonString = String(data: jsonData, encoding: .utf8)
-                print(jsonString)
+                cancellable = APIManager.shared.fetchCalculate(body: jsonData)
+                    .receive(on: DispatchQueue.main)
+                    .sink(receiveCompletion: { status in
+                        switch status {
+                        case .failure(let error):
+                            self.responseMessageBody = error.localizedDescription
+                            self.showAlert = true
+                        case .finished:
+                            print(">>>finished")
+                        }
+                    }, receiveValue: { response in
+                        self.responseMessageBody = "total price is : \(response.total_price)"
+                        self.showAlert = true
+                        self.waitingForResponseFromEndpoint = false
+                    })
+         
             } catch {
-                
+                print("JSONEncoder failed!")
             }
         }
         
