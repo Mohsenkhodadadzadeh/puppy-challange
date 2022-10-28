@@ -53,6 +53,9 @@ struct PetTypeView: View {
                 
             }
         }
+        .alert(isPresented: $viewModel.showAlert) {
+            Alert(title: Text("Total price"), message: Text(viewModel.responseMessageBody), dismissButton: .default(Text("Got it!")))
+        }
     }
 }
 

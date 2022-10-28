@@ -22,6 +22,7 @@ struct ServiceTypeView: View {
             Form {
                 Section {
                     Toggle("Grooming", isOn: petType == .cat ? $rawModel.groomyCat : $rawModel.groomyDog)
+                        .toggleStyle(CheckBoxToggleStyle())
                     
                     Button(action: viewModel.numberHotelNightButtonPress) {
                         Spacer()
