@@ -6,6 +6,7 @@
 //
 
 import XCTest
+
 @testable import puppy_challange
 
 class puppy_challangeTests: XCTestCase {
@@ -26,6 +27,31 @@ class puppy_challangeTests: XCTestCase {
         // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
     }
 
+    func testReceiveData() throws {
+        let testPetViewModel = PetTypeView.ViewModel()
+        
+        testPetViewModel.rawModel.numberOfNightsHotelForCat = 3
+        testPetViewModel.rawModel.numberOfNightsHotelForDog = 1
+        testPetViewModel.rawModel.groomyCat = true
+        testPetViewModel.waitingForResponseFromEndpoint = false
+        let expectation = self.expectation(description: "wait for response")
+        
+        testPetViewModel.calculate() //{ obj in
+        var resultStatus: Bool = false
+        testPetViewModel.calculatingResult = { status in
+            expectation.fulfill()
+            resultStatus = status
+        }
+        
+        waitForExpectations(timeout: 10, handler: nil)
+        
+        if resultStatus {
+            XCTAssertEqual(testPetViewModel.responseMessageBody, "total price is : 750")
+        }
+        
+        
+    }
+    
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
         self.measure {

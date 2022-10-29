@@ -19,7 +19,8 @@ extension PetTypeView {
         @Published var rawModelIsEmpty: Bool
         @Published var responseMessageBody: String
         @Published var showAlert: Bool = false
-        private var cancellable: AnyCancellable?
+        var calculatingResult: (Bool) -> Void = { _ in }
+        var cancellable: AnyCancellable?
         
         var calculateTitleString: String {
             if waitingForResponseFromEndpoint {
@@ -58,8 +59,10 @@ extension PetTypeView {
                         case .failure(let error):
                             self.responseMessageBody = error.localizedDescription
                             self.showAlert = true
+                            self.calculatingResult(false)
                         case .finished:
                             print(">>>finished")
+                            self.calculatingResult(true)
                         }
                     }, receiveValue: { response in
                         self.responseMessageBody = "total price is : \(response.total_price)"
