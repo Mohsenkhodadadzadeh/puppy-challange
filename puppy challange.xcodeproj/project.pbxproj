@@ -1,0 +1,741 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		821C21C6290A8BC40059FE57 /* Color+AssetsColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821C21C5290A8BC40059FE57 /* Color+AssetsColors.swift */; };
+		821C21C8290A8C950059FE57 /* ServiceTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821C21C7290A8C950059FE57 /* ServiceTypeView.swift */; };
+		821C21CB290A8E050059FE57 /* CheckBoxToggleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821C21CA290A8E050059FE57 /* CheckBoxToggleStyle.swift */; };
+		821C21CF290A91230059FE57 /* TextFieldAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821C21CE290A91230059FE57 /* TextFieldAlert.swift */; };
+		821C21D1290A91990059FE57 /* ServiceTypeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821C21D0290A91990059FE57 /* ServiceTypeViewModel.swift */; };
+		821C21D3290A92C20059FE57 /* View+textFieldAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821C21D2290A92C20059FE57 /* View+textFieldAlert.swift */; };
+		8268DC3C290942750000ED9B /* puppy_challangeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8268DC3B290942750000ED9B /* puppy_challangeApp.swift */; };
+		8268DC40290942790000ED9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8268DC3F290942790000ED9B /* Assets.xcassets */; };
+		8268DC43290942790000ED9B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8268DC42290942790000ED9B /* Preview Assets.xcassets */; };
+		8268DC45290942790000ED9B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8268DC44290942790000ED9B /* Persistence.swift */; };
+		8268DC48290942790000ED9B /* puppy_challange.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8268DC46290942790000ED9B /* puppy_challange.xcdatamodeld */; };
+		8268DC522909427A0000ED9B /* puppy_challangeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8268DC512909427A0000ED9B /* puppy_challangeTests.swift */; };
+		8268DC5C2909427A0000ED9B /* puppy_challangeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8268DC5B2909427A0000ED9B /* puppy_challangeUITests.swift */; };
+		8268DC5E2909427A0000ED9B /* puppy_challangeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8268DC5D2909427A0000ED9B /* puppy_challangeUITestsLaunchTests.swift */; };
+		827D954329094A4E0024994F /* PetTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827D954229094A4E0024994F /* PetTypeView.swift */; };
+		827D954629094B360024994F /* PetTypeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827D954529094B360024994F /* PetTypeViewModel.swift */; };
+		827D954929094D590024994F /* PetServiceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827D954829094D590024994F /* PetServiceModel.swift */; };
+		827D954B29094ED10024994F /* PuppyRequestBodyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827D954A29094ED10024994F /* PuppyRequestBodyModel.swift */; };
+		827D954D29094EFA0024994F /* PetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827D954C29094EFA0024994F /* PetModel.swift */; };
+		827D954F29094F400024994F /* HotelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827D954E29094F400024994F /* HotelModel.swift */; };
+		827E5378290BF24F003662EF /* AssignmentResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827E5377290BF24F003662EF /* AssignmentResultModel.swift */; };
+		827E537B290BF310003662EF /* AssignmentEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827E537A290BF310003662EF /* AssignmentEndpoint.swift */; };
+		827E537D290BF3B3003662EF /* EndpointProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827E537C290BF3B3003662EF /* EndpointProtocol.swift */; };
+		827E537F290BF73D003662EF /* APIGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827E537E290BF73D003662EF /* APIGenerator.swift */; };
+		827E5381290C01FA003662EF /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827E5380290C01FA003662EF /* APIManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8268DC4E2909427A0000ED9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8268DC30290942750000ED9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8268DC37290942750000ED9B;
+			remoteInfo = "puppy challange";
+		};
+		8268DC582909427A0000ED9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8268DC30290942750000ED9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8268DC37290942750000ED9B;
+			remoteInfo = "puppy challange";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		821C21C5290A8BC40059FE57 /* Color+AssetsColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+AssetsColors.swift"; sourceTree = "<group>"; };
+		821C21C7290A8C950059FE57 /* ServiceTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceTypeView.swift; sourceTree = "<group>"; };
+		821C21CA290A8E050059FE57 /* CheckBoxToggleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxToggleStyle.swift; sourceTree = "<group>"; };
+		821C21CE290A91230059FE57 /* TextFieldAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldAlert.swift; sourceTree = "<group>"; };
+		821C21D0290A91990059FE57 /* ServiceTypeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceTypeViewModel.swift; sourceTree = "<group>"; };
+		821C21D2290A92C20059FE57 /* View+textFieldAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+textFieldAlert.swift"; sourceTree = "<group>"; };
+		8268DC38290942750000ED9B /* puppy challange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "puppy challange.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8268DC3B290942750000ED9B /* puppy_challangeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = puppy_challangeApp.swift; sourceTree = "<group>"; };
+		8268DC3F290942790000ED9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8268DC42290942790000ED9B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8268DC44290942790000ED9B /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		8268DC47290942790000ED9B /* puppy_challange.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = puppy_challange.xcdatamodel; sourceTree = "<group>"; };
+		8268DC4D2909427A0000ED9B /* puppy challangeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "puppy challangeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8268DC512909427A0000ED9B /* puppy_challangeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = puppy_challangeTests.swift; sourceTree = "<group>"; };
+		8268DC572909427A0000ED9B /* puppy challangeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "puppy challangeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8268DC5B2909427A0000ED9B /* puppy_challangeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = puppy_challangeUITests.swift; sourceTree = "<group>"; };
+		8268DC5D2909427A0000ED9B /* puppy_challangeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = puppy_challangeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		827D954229094A4E0024994F /* PetTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetTypeView.swift; sourceTree = "<group>"; };
+		827D954529094B360024994F /* PetTypeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetTypeViewModel.swift; sourceTree = "<group>"; };
+		827D954829094D590024994F /* PetServiceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetServiceModel.swift; sourceTree = "<group>"; };
+		827D954A29094ED10024994F /* PuppyRequestBodyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuppyRequestBodyModel.swift; sourceTree = "<group>"; };
+		827D954C29094EFA0024994F /* PetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetModel.swift; sourceTree = "<group>"; };
+		827D954E29094F400024994F /* HotelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelModel.swift; sourceTree = "<group>"; };
+		827E5377290BF24F003662EF /* AssignmentResultModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentResultModel.swift; sourceTree = "<group>"; };
+		827E537A290BF310003662EF /* AssignmentEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentEndpoint.swift; sourceTree = "<group>"; };
+		827E537C290BF3B3003662EF /* EndpointProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndpointProtocol.swift; sourceTree = "<group>"; };
+		827E537E290BF73D003662EF /* APIGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIGenerator.swift; sourceTree = "<group>"; };
+		827E5380290C01FA003662EF /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8268DC35290942750000ED9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8268DC4A2909427A0000ED9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8268DC542909427A0000ED9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		821C21C4290A8BA70059FE57 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				821C21C5290A8BC40059FE57 /* Color+AssetsColors.swift */,
+				821C21D2290A92C20059FE57 /* View+textFieldAlert.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		821C21C9290A8DF40059FE57 /* CustomItems */ = {
+			isa = PBXGroup;
+			children = (
+				821C21CA290A8E050059FE57 /* CheckBoxToggleStyle.swift */,
+				821C21CE290A91230059FE57 /* TextFieldAlert.swift */,
+			);
+			path = CustomItems;
+			sourceTree = "<group>";
+		};
+		8268DC2F290942750000ED9B = {
+			isa = PBXGroup;
+			children = (
+				8268DC3A290942750000ED9B /* puppy challange */,
+				8268DC502909427A0000ED9B /* puppy challangeTests */,
+				8268DC5A2909427A0000ED9B /* puppy challangeUITests */,
+				8268DC39290942750000ED9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8268DC39290942750000ED9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8268DC38290942750000ED9B /* puppy challange.app */,
+				8268DC4D2909427A0000ED9B /* puppy challangeTests.xctest */,
+				8268DC572909427A0000ED9B /* puppy challangeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8268DC3A290942750000ED9B /* puppy challange */ = {
+			isa = PBXGroup;
+			children = (
+				827E5372290BF159003662EF /* Services */,
+				821C21C9290A8DF40059FE57 /* CustomItems */,
+				821C21C4290A8BA70059FE57 /* Extensions */,
+				827D954729094CD60024994F /* Model */,
+				827D954429094AA60024994F /* ViewModel */,
+				827D954129094A040024994F /* View */,
+				827D9540290949D60024994F /* App */,
+			);
+			path = "puppy challange";
+			sourceTree = "<group>";
+		};
+		8268DC41290942790000ED9B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8268DC42290942790000ED9B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8268DC502909427A0000ED9B /* puppy challangeTests */ = {
+			isa = PBXGroup;
+			children = (
+				8268DC512909427A0000ED9B /* puppy_challangeTests.swift */,
+			);
+			path = "puppy challangeTests";
+			sourceTree = "<group>";
+		};
+		8268DC5A2909427A0000ED9B /* puppy challangeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8268DC5B2909427A0000ED9B /* puppy_challangeUITests.swift */,
+				8268DC5D2909427A0000ED9B /* puppy_challangeUITestsLaunchTests.swift */,
+			);
+			path = "puppy challangeUITests";
+			sourceTree = "<group>";
+		};
+		827D9540290949D60024994F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				8268DC3F290942790000ED9B /* Assets.xcassets */,
+				8268DC44290942790000ED9B /* Persistence.swift */,
+				8268DC3B290942750000ED9B /* puppy_challangeApp.swift */,
+				8268DC41290942790000ED9B /* Preview Content */,
+				8268DC46290942790000ED9B /* puppy_challange.xcdatamodeld */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		827D954129094A040024994F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				827D954229094A4E0024994F /* PetTypeView.swift */,
+				821C21C7290A8C950059FE57 /* ServiceTypeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		827D954429094AA60024994F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				827D954529094B360024994F /* PetTypeViewModel.swift */,
+				821C21D0290A91990059FE57 /* ServiceTypeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		827D954729094CD60024994F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				827D954829094D590024994F /* PetServiceModel.swift */,
+				827D954A29094ED10024994F /* PuppyRequestBodyModel.swift */,
+				827D954C29094EFA0024994F /* PetModel.swift */,
+				827D954E29094F400024994F /* HotelModel.swift */,
+				827E5377290BF24F003662EF /* AssignmentResultModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		827E5372290BF159003662EF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				827E5379290BF2FB003662EF /* EndPoints */,
+				827E5373290BF161003662EF /* API Manager */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		827E5373290BF161003662EF /* API Manager */ = {
+			isa = PBXGroup;
+			children = (
+				827E5380290C01FA003662EF /* APIManager.swift */,
+			);
+			path = "API Manager";
+			sourceTree = "<group>";
+		};
+		827E5379290BF2FB003662EF /* EndPoints */ = {
+			isa = PBXGroup;
+			children = (
+				827E537A290BF310003662EF /* AssignmentEndpoint.swift */,
+				827E537C290BF3B3003662EF /* EndpointProtocol.swift */,
+				827E537E290BF73D003662EF /* APIGenerator.swift */,
+			);
+			path = EndPoints;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8268DC37290942750000ED9B /* puppy challange */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8268DC612909427A0000ED9B /* Build configuration list for PBXNativeTarget "puppy challange" */;
+			buildPhases = (
+				8268DC34290942750000ED9B /* Sources */,
+				8268DC35290942750000ED9B /* Frameworks */,
+				8268DC36290942750000ED9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "puppy challange";
+			productName = "puppy challange";
+			productReference = 8268DC38290942750000ED9B /* puppy challange.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8268DC4C2909427A0000ED9B /* puppy challangeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8268DC642909427A0000ED9B /* Build configuration list for PBXNativeTarget "puppy challangeTests" */;
+			buildPhases = (
+				8268DC492909427A0000ED9B /* Sources */,
+				8268DC4A2909427A0000ED9B /* Frameworks */,
+				8268DC4B2909427A0000ED9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8268DC4F2909427A0000ED9B /* PBXTargetDependency */,
+			);
+			name = "puppy challangeTests";
+			productName = "puppy challangeTests";
+			productReference = 8268DC4D2909427A0000ED9B /* puppy challangeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8268DC562909427A0000ED9B /* puppy challangeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8268DC672909427A0000ED9B /* Build configuration list for PBXNativeTarget "puppy challangeUITests" */;
+			buildPhases = (
+				8268DC532909427A0000ED9B /* Sources */,
+				8268DC542909427A0000ED9B /* Frameworks */,
+				8268DC552909427A0000ED9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8268DC592909427A0000ED9B /* PBXTargetDependency */,
+			);
+			name = "puppy challangeUITests";
+			productName = "puppy challangeUITests";
+			productReference = 8268DC572909427A0000ED9B /* puppy challangeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8268DC30290942750000ED9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					8268DC37290942750000ED9B = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					8268DC4C2909427A0000ED9B = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 8268DC37290942750000ED9B;
+					};
+					8268DC562909427A0000ED9B = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 8268DC37290942750000ED9B;
+					};
+				};
+			};
+			buildConfigurationList = 8268DC33290942750000ED9B /* Build configuration list for PBXProject "puppy challange" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8268DC2F290942750000ED9B;
+			productRefGroup = 8268DC39290942750000ED9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8268DC37290942750000ED9B /* puppy challange */,
+				8268DC4C2909427A0000ED9B /* puppy challangeTests */,
+				8268DC562909427A0000ED9B /* puppy challangeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8268DC36290942750000ED9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8268DC43290942790000ED9B /* Preview Assets.xcassets in Resources */,
+				8268DC40290942790000ED9B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8268DC4B2909427A0000ED9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8268DC552909427A0000ED9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8268DC34290942750000ED9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				827E537D290BF3B3003662EF /* EndpointProtocol.swift in Sources */,
+				827D954F29094F400024994F /* HotelModel.swift in Sources */,
+				827D954629094B360024994F /* PetTypeViewModel.swift in Sources */,
+				821C21C6290A8BC40059FE57 /* Color+AssetsColors.swift in Sources */,
+				8268DC48290942790000ED9B /* puppy_challange.xcdatamodeld in Sources */,
+				827E537B290BF310003662EF /* AssignmentEndpoint.swift in Sources */,
+				827D954929094D590024994F /* PetServiceModel.swift in Sources */,
+				8268DC45290942790000ED9B /* Persistence.swift in Sources */,
+				827D954B29094ED10024994F /* PuppyRequestBodyModel.swift in Sources */,
+				827E5378290BF24F003662EF /* AssignmentResultModel.swift in Sources */,
+				821C21CB290A8E050059FE57 /* CheckBoxToggleStyle.swift in Sources */,
+				821C21CF290A91230059FE57 /* TextFieldAlert.swift in Sources */,
+				827E5381290C01FA003662EF /* APIManager.swift in Sources */,
+				827D954D29094EFA0024994F /* PetModel.swift in Sources */,
+				827E537F290BF73D003662EF /* APIGenerator.swift in Sources */,
+				821C21D3290A92C20059FE57 /* View+textFieldAlert.swift in Sources */,
+				821C21C8290A8C950059FE57 /* ServiceTypeView.swift in Sources */,
+				827D954329094A4E0024994F /* PetTypeView.swift in Sources */,
+				8268DC3C290942750000ED9B /* puppy_challangeApp.swift in Sources */,
+				821C21D1290A91990059FE57 /* ServiceTypeViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8268DC492909427A0000ED9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8268DC522909427A0000ED9B /* puppy_challangeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8268DC532909427A0000ED9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8268DC5C2909427A0000ED9B /* puppy_challangeUITests.swift in Sources */,
+				8268DC5E2909427A0000ED9B /* puppy_challangeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8268DC4F2909427A0000ED9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8268DC37290942750000ED9B /* puppy challange */;
+			targetProxy = 8268DC4E2909427A0000ED9B /* PBXContainerItemProxy */;
+		};
+		8268DC592909427A0000ED9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8268DC37290942750000ED9B /* puppy challange */;
+			targetProxy = 8268DC582909427A0000ED9B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8268DC5F2909427A0000ED9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8268DC602909427A0000ED9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8268DC622909427A0000ED9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"puppy challange/App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mohsen.puppy-challange";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8268DC632909427A0000ED9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"puppy challange/App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mohsen.puppy-challange";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8268DC652909427A0000ED9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mohsen.puppy-challangeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/puppy challange.app/puppy challange";
+			};
+			name = Debug;
+		};
+		8268DC662909427A0000ED9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mohsen.puppy-challangeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/puppy challange.app/puppy challange";
+			};
+			name = Release;
+		};
+		8268DC682909427A0000ED9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mohsen.puppy-challangeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "puppy challange";
+			};
+			name = Debug;
+		};
+		8268DC692909427A0000ED9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mohsen.puppy-challangeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "puppy challange";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8268DC33290942750000ED9B /* Build configuration list for PBXProject "puppy challange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8268DC5F2909427A0000ED9B /* Debug */,
+				8268DC602909427A0000ED9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8268DC612909427A0000ED9B /* Build configuration list for PBXNativeTarget "puppy challange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8268DC622909427A0000ED9B /* Debug */,
+				8268DC632909427A0000ED9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8268DC642909427A0000ED9B /* Build configuration list for PBXNativeTarget "puppy challangeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8268DC652909427A0000ED9B /* Debug */,
+				8268DC662909427A0000ED9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8268DC672909427A0000ED9B /* Build configuration list for PBXNativeTarget "puppy challangeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8268DC682909427A0000ED9B /* Debug */,
+				8268DC692909427A0000ED9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8268DC46290942790000ED9B /* puppy_challange.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8268DC47290942790000ED9B /* puppy_challange.xcdatamodel */,
+			);
+			currentVersion = 8268DC47290942790000ED9B /* puppy_challange.xcdatamodel */;
+			path = puppy_challange.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8268DC30290942750000ED9B /* Project object */;
+}
